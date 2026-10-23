@@ -1,0 +1,9 @@
+```spl
+| inputlookup authentication.csv
+| search logon_type="VPN" username="j.park" source_ip="203.0.113.77"
+| eval is_failure=if(result="Failure",1,0), is_success=if(result="Success",1,0)
+| stats sum(is_failure) as failures sum(is_success) as successes earliest(timestamp_utc) as first_seen latest(timestamp_utc) as last_seen by username source_ip
+| where failures>=10 AND successes>=1
+```
+
+Illustrative SPL using an uploaded CSV lookup, not executed in Splunk. For production detections, require time-window ordering (failure burst followed by success), tune thresholds, and validate on actual VPN sourcetype and fields.

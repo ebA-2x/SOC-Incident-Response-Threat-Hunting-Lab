@@ -1,0 +1,5 @@
+evidence_id,scenario_statement,origin,status
+S1,EDR links powershell.exe PID 4820 to both 198.51.100.88:443 connections,Exercise 5 supplemental scenario,Not present in original Phase 1 logs
+S2,Employee denies initiating the VPN session or PowerShell activity,Exercise 5 supplemental scenario,Not independently verified
+S3,WS-101 can access internal company documents,Exercise 5 supplemental scenario,Potential exposure; no observed document access
+S4,PowerShell command body unavailable for inspection,Exercise 5 supplemental scenario,Intent cannot be confirmed

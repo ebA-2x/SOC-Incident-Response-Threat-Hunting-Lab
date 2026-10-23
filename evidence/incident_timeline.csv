@@ -1,0 +1,25 @@
+timestamp_utc,artifact,csv_row_number,observation,evidence_type
+2026-10-19T13:00:00Z,authentication.csv,145,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:00:00Z,authentication.csv,146,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:01:00Z,authentication.csv,147,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:01:00Z,authentication.csv,148,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:02:00Z,authentication.csv,150,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:02:00Z,authentication.csv,151,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:03:00Z,authentication.csv,153,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:03:00Z,authentication.csv,154,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:04:00Z,authentication.csv,155,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:04:00Z,authentication.csv,156,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:05:00Z,authentication.csv,157,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:05:00Z,authentication.csv,158,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:06:00Z,authentication.csv,159,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:06:00Z,authentication.csv,160,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:07:00Z,authentication.csv,163,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:07:00Z,authentication.csv,164,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:08:00Z,authentication.csv,165,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:08:00Z,authentication.csv,166,"Failure VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:10:00Z,authentication.csv,167,"Success VPN login, account j.park, source 203.0.113.77",Original CSV
+2026-10-19T13:14:00Z,dns_events.csv,63,DNS query sync-check.northstar-lab.example (NOERROR),Original CSV
+2026-10-19T13:14:00Z,process_events.csv,51,powershell.exe powershell.exe -NoProfile -EncodedCommand [REDACTED_SIMULATED],Original CSV
+2026-10-19T13:15:00Z,network_connections.csv,87,TCP to 198.51.100.88:443; bytes_out=32541,Original CSV
+2026-10-19T13:16:00Z,process_events.csv,52,cmd.exe cmd.exe /c whoami,Original CSV
+2026-10-19T13:17:00Z,network_connections.csv,89,TCP to 198.51.100.88:443; bytes_out=52802,Original CSV
