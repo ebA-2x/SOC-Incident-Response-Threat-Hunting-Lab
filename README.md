@@ -2,7 +2,7 @@
 
 **Portfolio case:** NS-SOC-001 | **Environment:** Northstar Technologies (entirely fictional) | **Data:** 100% synthetic | **Date of simulated event:** 2026-10-19 UTC
 
-An evidence-driven junior SOC investigation of repeated VPN authentication failures, a subsequent successful login, encoded PowerShell execution, and outbound connections. This case demonstrates log triage, correlation, evidence handling, uncertainty management, and incident response recommendations.
+An evidence-driven SOC investigation of repeated VPN authentication failures, a subsequent successful login, encoded PowerShell execution, and outbound connections. This case demonstrates log triage, correlation, evidence handling, uncertainty management, and incident response recommendations.
 
 > **Important:** This is an educational simulation, not a production security incident, real customer engagement, confirmed malware analysis, or demonstration of actual endpoint containment. Scenario-added evidence is separated from CSV-supported observations.
 
